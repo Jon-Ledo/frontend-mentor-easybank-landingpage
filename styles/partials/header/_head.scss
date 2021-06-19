@@ -1,0 +1,22 @@
+header {
+  min-height: 100vh;
+
+
+  .flex-container {
+    display: flex;
+
+    .header__intro {
+      // margin-left: 7vw;
+      margin-left: calc((100vw - 1440px) / 2);
+      width: 40%;
+    }
+    
+    .header__img {
+      width: 60%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
